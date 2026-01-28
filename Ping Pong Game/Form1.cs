@@ -1,5 +1,9 @@
 ﻿namespace Ping_Pong_Game
 {
+
+
+    //Iliyan Sidzhimkov     
+    //F112803
     public partial class Form1 : Form
     {
         public Form1()
