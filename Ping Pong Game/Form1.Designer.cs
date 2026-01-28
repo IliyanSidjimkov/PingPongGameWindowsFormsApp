@@ -86,7 +86,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { languageToolStripMenuItem, aboutToolStripMenuItem });
             menuStrip1.Location = new Point(350, 9);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(251, 24);
+            menuStrip1.Size = new Size(131, 24);
             menuStrip1.TabIndex = 3;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -122,13 +122,14 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Black;
+            BackColor = Color.FromArgb(64, 0, 64);
             ClientSize = new Size(800, 450);
             Controls.Add(ball);
             Controls.Add(computer);
             Controls.Add(player);
             Controls.Add(menuStrip1);
             DoubleBuffered = true;
+            ForeColor = Color.Black;
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Player: 0 --- Computer: 0";
